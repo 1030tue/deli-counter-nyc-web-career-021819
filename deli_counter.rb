@@ -28,6 +28,6 @@ def now_serving(katz_deli)
   else
     head = katz_deli.shift
     katz_deli
-    puts "Currently serving #{head}"
+    puts "Currently serving #{head}."
   end
 end
